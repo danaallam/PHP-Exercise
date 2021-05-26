@@ -1,0 +1,102 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td {
+    width: 20%;
+    text-align: left;
+}
+
+.center{
+    position:absolute;
+    top: 50%;
+    left: 60%;
+    margin-top: -9em; 
+    margin-left: -15em; 
+    border: 1px solid #ccc;
+}
+
+form{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+#customers {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    height: 300px;
+}
+  
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+tr:hover {
+    background-color: #ddd;
+}
+  
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+th{
+    text-align: center;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid gray;
+}
+
+button:hover, .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+*:focus {
+    outline: none;
+}
+  
+input[type=number]{
+    box-sizing: border-box;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+  
+input[type=number]:focus{
+    border-bottom: 2px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+}
+
+span{
+    color:red;
+}
